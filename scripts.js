@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	$('li.nav').click(function(){
+		$('.content').hide();
+	});
+	$('li.nav').hover(function() {
+		$(this).css('cursor','pointer');
+	});
+	$('li#nav-about').click(function(){
+		$('#content-about').show();
+	});
+	$('li#nav-portfolio').click(function(){
+		$('#content-portfolio').show();
+	});
+	$('li#nav-resume').click(function(){
+		$('#content-resume').show();
+	});
+	$('li#nav-contact').click(function(){
+		$('#content-contact').show();
+	});
+});

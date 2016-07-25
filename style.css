@@ -1,0 +1,27 @@
+/*html, body {
+	background-color: orange;
+}*/
+
+img {
+	background-color: #fff;
+}
+
+img:hover {
+	background-color: gray;
+	transition-duration: .5s;
+}
+
+button a, button a:hover {
+	color: #fff;
+}
+
+.u_header-nav {
+	font-size: 28px;
+	color: gray;
+	font-weight: bolder;
+}
+
+.u_header-nav li:hover {
+	color: #a9a9a9;
+	text-decoration: underline;
+}
